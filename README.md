@@ -10,7 +10,7 @@ prompts the user to enter the instrument choice, after listing all the options
 
 E.g.
 
-'''
+```
 $ ./fluidsynth.sh
 
 wurli
@@ -18,7 +18,7 @@ keyboard
 piano
 
 instrument: wurli
-'''
+```
 
 
 ## startup.sh
@@ -26,9 +26,9 @@ takes the instrument in as an argument instead of requesting user input, so can 
 
 E.g.
 
-'''
+```
 $ ./startup.sh wurli
-'''
+```
 
 This can be easily added to the bashrc file, to automatically run on login
 
