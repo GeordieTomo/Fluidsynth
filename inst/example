@@ -1,0 +1,9 @@
+echo "loading soundfont"
+
+gain 3
+
+load "/usr/share/sounds/sf3/FluidR3_GM.sf2
+
+select 0 1 0 0
+
+echo "loaded"
